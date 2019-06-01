@@ -1,0 +1,9 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "quote_generator",
+            "description": "For my first project I have chosen to create a single page application which will obtain different quotes randomly from a list of obtained inspirational quotes. My goal for this first project was to get comfortable with basic javascript functions and DOM manipulation."
+        }
+    ]
+}
