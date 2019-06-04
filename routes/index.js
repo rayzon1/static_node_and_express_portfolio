@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     projects: req.params.projects
     
   });
-  //console.log(req.params)
+  
 });
 
 

@@ -9,7 +9,6 @@ router.get('/:id', function(req, res, next) {
     projects: req.params.projects,
     id: req.params.id
   });
-  console.log(req.params)
 });
 
 router.get('/', function(req, res, next) {
