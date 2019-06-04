@@ -1,9 +1,19 @@
 var express = require('express');
 var router = express.Router();
+const { projects } = require('../data/data.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index');
+  
+  req.params.projects = projects;
+
+
+  res.render('index', {
+    projects: req.params.projects
+    
+  });
+  //console.log(req.params)
 });
+
 
 module.exports = router;

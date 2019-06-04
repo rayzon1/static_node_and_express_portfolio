@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Simple Quote Generator",
+            "description": "For my first project I have chosen to create a single page application which will obtain different quotes randomly from a list of obtained inspirational quotes. My goal for this first project was to get comfortable with basic javascript functions and DOM manipulation.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://rayzon1.github.io/",
+            "github_link": "https://github.com/rayzon1/rayzon1.github.io",
+            "image_urls": [
+                "./static/images/quote_gen_cap_01.png",
+                "../static/images/quote_gen_cap_lg_01.png",
+                "../static/images/quote_gen_cap_lg_02.png",
+                "../static/images/quote_gen_cap_lg_03.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Interactive Form and Validation",
+            "description": "This is my second project where I showcase the new technologies and techniques that I learned to process form submission as well as validation and error handling using HTML, CSS, jQuery, and Regular Expressions",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
+            "live_link": "https://rayzon1.github.io/interactive_form_and_validation/",
+            "github_link": "https://github.com/rayzon1/interactive_form_and_validation",
+            "image_urls": [
+                "./static/images/form_screens/form_cap_sm_01.png",
+                "../static/images/form_screens/form_cap_lg_01.png",
+                "../static/images/form_screens/form_cap_lg_02.png",
+                "../static/images/form_screens/form_cap_lg_03.png"
+            ]
+        }
+    ]
+}
