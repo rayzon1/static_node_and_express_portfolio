@@ -8,10 +8,10 @@
             "live_link": "https://rayzon1.github.io/",
             "github_link": "https://github.com/rayzon1/rayzon1.github.io",
             "image_urls": [
-                "./static/images/quote_gen_cap_01.png",
-                "../static/images/quote_gen_cap_lg_01.png",
-                "../static/images/quote_gen_cap_lg_02.png",
-                "../static/images/quote_gen_cap_lg_03.png"
+                "./static/images/quote_screens/quote_gen_cap_01.png",
+                "../static/images/quote_screens/quote_gen_lg_01.png",
+                "../static/images/quote_screens/quote_gen_lg_02.png",
+                "../static/images/quote_screens/quote_gen_lg_03.png"
             ]
         },
         {
@@ -23,9 +23,23 @@
             "github_link": "https://github.com/rayzon1/interactive_form_and_validation",
             "image_urls": [
                 "./static/images/form_screens/form_cap_sm_01.png",
-                "../static/images/form_screens/form_cap_lg_01.png",
-                "../static/images/form_screens/form_cap_lg_02.png",
-                "../static/images/form_screens/form_cap_lg_03.png"
+                "../static/images/form_screens/form_lg_01.png",
+                "../static/images/form_screens/form_lg_02.png",
+                "../static/images/form_screens/form_lg_03.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Pagination and Filtering",
+            "description": "With this project I wanted to practice my skills with DOM manipulation as well as implementing a search and filtering feature. This project really helped increase my skills in implementing logic to create a dynamic and interactive page.",
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://rayzon1.github.io/pagination_filtering/",
+            "github_link": "https://github.com/rayzon1/pagination_filtering",
+            "image_urls": [
+                "./static/images/pagination_screens/pagination_sm_01.png",
+                "../static/images/pagination_screens/pagination_lg_01.png",
+                "../static/images/pagination_screens/pagination_lg_02.png",
+                "../static/images/pagination_screens/pagination_lg_03.png"
             ]
         }
     ]
