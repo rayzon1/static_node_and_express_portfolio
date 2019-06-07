@@ -12,6 +12,11 @@
                 "../static/images/quote_screens/quote_gen_lg_01.png",
                 "../static/images/quote_screens/quote_gen_lg_02.png",
                 "../static/images/quote_screens/quote_gen_lg_03.png"
+            ],
+            "video_urls": [
+                "../static/videos/quote_record_01.mp4",
+                "../static/videos/quote_record_02.mp4",
+                "../static/videos/quote_record_03.mp4"
             ]
         },
         {
@@ -26,6 +31,11 @@
                 "../static/images/form_screens/form_lg_01.png",
                 "../static/images/form_screens/form_lg_02.png",
                 "../static/images/form_screens/form_lg_03.png"
+            ],
+            "video_urls": [
+                "../static/videos/form_screen_record_01.mp4",
+                "../static/videos/form_screen_record_02.mp4",
+                "../static/videos/form_screen_record_03.mp4"
             ]
         },
         {
@@ -40,6 +50,11 @@
                 "../static/images/pagination_screens/pagination_lg_01.png",
                 "../static/images/pagination_screens/pagination_lg_02.png",
                 "../static/images/pagination_screens/pagination_lg_03.png"
+            ],
+            "video_urls": [
+                "../static/videos/pagination_screen_record.mp4",
+                "../static/videos/pagination_screen_record_02.mp4",
+                "../static/videos/pagination_screen_record_03.mp4"
             ]
         }
     ]
