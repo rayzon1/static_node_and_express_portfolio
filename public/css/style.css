@@ -1,10 +1,13 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'vcr_osd_monoregular', 'Merriweather', serif;
+  text-transform: uppercase;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -12,6 +15,7 @@ h1,h2,h3,h4,h5,p{
 
   h6{
     letter-spacing: 2.5px;
+    font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
@@ -31,12 +35,10 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  /* background-color: #333; */
+  max-width: 50%;
 }
 
-.button:hover{
-  background-color: #111;
-}
 
 a{
   color: #333;
@@ -51,15 +53,39 @@ a:hover{
   max-width: 100%;
   max-height: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  /* border: solid 4px #fefefe; */
   border-radius: 0;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  /* box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2); */
   line-height: 0;
 }
+.webico {
+  max-width: 42% !important;
+}
+.logo-container {
+  margin-top: 50px;
+  display: flexbox;
+}
+
+.logo {
+  max-width: 5%;
+  max-height: 5%;
+  margin-left: 32px;
+  margin-bottom: 31px;
+}
+
+.js {
+  margin-left: 100px;
+}
+
+
+/* #my-info {
+  use this to change sidebar color.
+} */
 
 .portfolio-me{
   padding: 20px;
   background: #121213;
+  /* background: rgba(0, 0, 0, 0.8); */
   color: #fff;
   box-shadow: none !important;
 }
@@ -70,7 +96,8 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+    font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -135,17 +162,31 @@ a:hover{
 
   .portfolio-meta .button{
     margin-bottom: 5px;
+    text-transform: uppercase;
+    font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
   }
 
 .portfolio-project p{
   border: none;
+  text-transform: uppercase;
+  font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
 }
 
 .portfolio-project li{
   font-size: 13px;
   color: #444;
+  text-transform: uppercase;
+  font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
 }
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+@font-face {
+  font-family: 'vcr_osd_monoregular';
+  src: url('/static/fonts/vcr_osd_mono_1.001-webfont.ttf');
+  font-weight: normal;
+  font-style: normal;
+
 }

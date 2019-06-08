@@ -56,6 +56,38 @@
                 "../static/videos/pagination_screen_record_02.mp4",
                 "../static/videos/pagination_screen_record_03.mp4"
             ]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter Game Show",
+            "description": "This project helped me understand and practice Object Oriented Programming with the use of classes, methods and objects. The game is modeled after Jeopardy where the player chooses letters to guess the phrase hidden on the screen. When the player guesses the phrase there will be a splash screen congratulating the player, if the player runs out of lives the game over screen will show.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
+            "live_link": "https://rayzon1.github.io/pagination_filtering/",
+            "github_link": "https://github.com/rayzon1/pagination_filtering",
+            "image_urls": [
+                "./static/images/game_show_screens/game_show_sm_01.png"
+            ],
+            "video_urls": [
+                "../static/videos/phase_hunter_01.mp4",
+                "../static/videos/phase_hunter_02.mp4",
+                "../static/videos/phase_hunter_03.mp4"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "OMDB Review App",
+            "description": "For this project I utilised my knowledge of asyncronous programming using promises, and fetch. I connected to OMDB in order to use their API and grabbed information such as movies and shows based on name which included titles, descriptions, reviews and posters. This project helped me immensely on the principles of asyncronous programming.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
+            "live_link": "https://rayzon1.github.io/pagination_filtering/",
+            "github_link": "https://github.com/rayzon1/pagination_filtering",
+            "image_urls": [
+                "../static/images/omdb_screens/omdb_screen_sm_01.png"
+            ],
+            "video_urls": [
+                "../static/videos/omdb_record_01.mp4",
+                "../static/videos/omdb_record_02.mp4",
+                "../static/videos/omdb_record_03.mp4"
+            ]
         }
     ]
 }
