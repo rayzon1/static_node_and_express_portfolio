@@ -1,12 +1,14 @@
+
 $(document).foundation()
 
-const screenshots = document.querySelectorAll(".image");
+const thumbnails = document.querySelectorAll(".tnails");
 
 
-// create gifs on poster screenshots when hovering
-for(let i = 0; i < screenshots.length; i ++) {
-    screenshots[i].addEventListener('mouseenter', function(e){
-        //console.log(e.target);
+// remove box shadow when thumbnail is clicked.
+for(let i = 0; i < thumbnails.length; i ++) {
+    thumbnails[i].addEventListener('click', function(e){
+        this.style.boxShadow = 'none';
     })
+   
 }
     

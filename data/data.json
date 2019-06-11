@@ -5,8 +5,8 @@
             "project_name": "A Simple Quote Generator",
             "description": "For my first project I have chosen to create a single page application which will obtain different quotes randomly from a list of obtained inspirational quotes. My goal for this first project was to get comfortable with basic javascript functions and DOM manipulation.",
             "technologies": ["HTML", "CSS", "JavaScript"], 
-            "live_link": "https://rayzon1.github.io/",
-            "github_link": "https://github.com/rayzon1/rayzon1.github.io",
+            "live_link": "https://rayzon1.github.io/a-simple-quote-generator/",
+            "github_link": "https://github.com/rayzon1/a-simple-quote-generator",
             "image_urls": [
                 "./static/images/quote_screens/quote_gen_cap_01.png",
                 "../static/images/quote_screens/quote_gen_lg_01.png",
@@ -21,7 +21,7 @@
         },
         {
             "id": 1,
-            "project_name": "Interactive Form and Validation",
+            "project_name": "Form and Validation",
             "description": "This is my second project where I showcase the new technologies and techniques that I learned to process form submission as well as validation and error handling using HTML, CSS, jQuery, and Regular Expressions",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
             "live_link": "https://rayzon1.github.io/interactive_form_and_validation/",
@@ -62,8 +62,8 @@
             "project_name": "Phrase Hunter Game Show",
             "description": "This project helped me understand and practice Object Oriented Programming with the use of classes, methods and objects. The game is modeled after Jeopardy where the player chooses letters to guess the phrase hidden on the screen. When the player guesses the phrase there will be a splash screen congratulating the player, if the player runs out of lives the game over screen will show.",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
-            "live_link": "https://rayzon1.github.io/pagination_filtering/",
-            "github_link": "https://github.com/rayzon1/pagination_filtering",
+            "live_link": "https://rayzon1.github.io/phrase-hunter-gameshow/",
+            "github_link": "https://github.com/rayzon1/phrase-hunter-gameshow",
             "image_urls": [
                 "./static/images/game_show_screens/game_show_sm_01.png"
             ],
@@ -78,8 +78,8 @@
             "project_name": "OMDB Review App",
             "description": "For this project I utilised my knowledge of asyncronous programming using promises, and fetch. I connected to OMDB in order to use their API and grabbed information such as movies and shows based on name which included titles, descriptions, reviews and posters. This project helped me immensely on the principles of asyncronous programming.",
             "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
-            "live_link": "https://rayzon1.github.io/pagination_filtering/",
-            "github_link": "https://github.com/rayzon1/pagination_filtering",
+            "live_link": "https://rayzon1.github.io/omdb-movie-api/",
+            "github_link": "https://github.com/rayzon1/omdb-movie-api",
             "image_urls": [
                 "../static/images/omdb_screens/omdb_screen_sm_01.png"
             ],
@@ -87,6 +87,22 @@
                 "../static/videos/omdb_record_01.mp4",
                 "../static/videos/omdb_record_02.mp4",
                 "../static/videos/omdb_record_03.mp4"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Random User Public API",
+            "description": "This project generates a list of people cards from an API that generates random users including card information. I was able to practice my knowledge of fetch and promises to work with data from the api. Using that information I was able to create a modern and interactive page with the random user info.",
+            "technologies": ["HTML", "CSS", "JavaScript", "jQuery"], 
+            "live_link": "https://rayzon1.github.io/random-user_public_api/",
+            "github_link": "https://github.com/rayzon1/random-user_public_api",
+            "image_urls": [
+                "../static/images/random_user_screens/random_user_sm_01.png"
+            ],
+            "video_urls": [
+                "../static/videos/random_user_video_01.mp4",
+                "../static/videos/random_user_video_02.mp4",
+                "../static/videos/random_user_video_03.mp4"
             ]
         }
     ]

@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,p{
   p{
     font-size: 15px;
     color: #666;
+    text-transform: uppercase;
   }
 
 .round{
@@ -37,6 +38,23 @@ h1,h2,h3,h4,h5,p{
 .button{
   /* background-color: #333; */
   max-width: 50%;
+}
+
+#home {
+  font-family: 'vcr_osd_monoregular', 'Helvetica Neue', 'Helvetica', Arial;
+}
+
+#home:hover {
+  color: rgb(89, 234, 157);
+  font-size: 25px;
+}
+
+.git_ico{
+  max-width: 41% !important;
+}
+
+.twitter_ico{
+  max-width: 50% !important;
 }
 
 
@@ -67,10 +85,10 @@ a:hover{
 }
 
 .logo {
-  max-width: 5%;
-  max-height: 5%;
-  margin-left: 32px;
-  margin-bottom: 31px;
+  max-width: 7%;
+  max-height: 7%;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .js {
@@ -155,6 +173,11 @@ a:hover{
     .portfolio-index .cell h5{
       letter-spacing: 1px;
     }
+
+.tnails {
+  /* box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2), 0 13px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 7px 4px 22px #888888;
+}
 
 .portfolio-meta{
   padding-left: 20px;

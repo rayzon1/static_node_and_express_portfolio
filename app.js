@@ -24,15 +24,18 @@ app.use('/', indexRouter);
 app.use('/project', projectRouter);
 app.use('/about', aboutRouter);
 
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = `Uh Oh, there's been an error! :(`;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+app.use(function(req, res, next) {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
 
-  // render the error page
-  res.status(err.status || 500);
+app.use(function(err, req, res, next) {
+  res.locals.error = err;
+  res.status(err.status)
   res.render('error');
 });
+
 
   app.listen(port, () => {
     console.log(`Listening on port ${port}...`)
